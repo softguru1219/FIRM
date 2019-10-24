@@ -1,0 +1,18 @@
+*****************************************************************************
+The process is following:
+1. Install Python 3
+2. Install the packages
+   pip install -r requirements.txt
+3. Run the script to extract the data
+   In command console:
+   python firm.py federal(or state) 0 500(or any number)
+
+   0 and 500 is start index and end index, you csn input with any number if you want
+   If you don't want, you don't need it.
+   python firm.py federal (or state)
+4. Run the script to get the Total and AND and OR.
+   python csv_mergy.py
+
+After run the script, you can see the folders(federal, state) created newly
+
+
